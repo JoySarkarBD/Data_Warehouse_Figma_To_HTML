@@ -1,0 +1,117 @@
+@media only screen and (max-width: 570px) {
+  /* Feature Box Responsive CSS Style Start */
+  .feature_box_container {
+    flex-direction: column;
+  }
+  .feature_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Feature Box Responsive CSS Style Start */
+
+  /* ==================================== */
+
+  /* Footer Responsive CSS Style Start */
+  .try_free {
+    flex-direction: column;
+  }
+  .try_free_content {
+    margin-bottom: 20px;
+  }
+  .try_free_content > h6 {
+    text-align: center;
+  }
+  .try_free_btn {
+    flex-direction: column;
+  }
+  .footer_info {
+    flex-direction: column;
+  }
+  .footer_logo {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer_list_item li {
+    align-items: center;
+  }
+  .tele_number,
+  .address {
+    text-align: center;
+  }
+  .one,
+  .two {
+    text-align: center;
+  }
+  /* Footer Responsive CSS Style End */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Feature Box Responsive CSS Style Start */
+  .feature_box {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Feature Box Responsive CSS Style Start */
+}
+
+@media only screen and (max-width: 992px) {
+  /* Header Responsive CSS Style Start */
+  .logo {
+    margin-top: 20px;
+  }
+  .menu {
+    display: none;
+  }
+  .demo_btn {
+    display: none;
+  }
+  .menu_toggler {
+    display: block;
+    cursor: pointer;
+  }
+  /* Header Responsive CSS Style End */
+
+  /* ================================ */
+
+  /* Banner Responsive CSS Style Start */
+  #banner {
+    background-image: none;
+  }
+  .inner_banner {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner_banner h1,
+  p,
+  button {
+    text-align: center;
+  }
+  /* Banner Responsive CSS Style End */
+
+  /* ================================ */
+
+  /* Storage Responsive CSS Style Start */
+  .inner_storage {
+    flex-direction: column;
+  }
+  .storage_content h2 {
+    text-align: center;
+  }
+  /* Storage Responsive CSS Style End */
+
+  /* ================================== */
+
+  /* Footer Responsive CSS Style Start */
+
+  .footer_demo_btn > ul > li {
+    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  /* Footer Responsive CSS Style End */
+}
